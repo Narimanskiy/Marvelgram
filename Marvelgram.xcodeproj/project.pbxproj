@@ -18,7 +18,7 @@
 		28C73202263EF9DC004AD893 /* SuperHeroCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C73201263EF9DC004AD893 /* SuperHeroCollectionViewCell.swift */; };
 		28C73208263F1927004AD893 /* InstagramLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C73207263F1927004AD893 /* InstagramLayout.swift */; };
 		5FA792C7DEFB54D812001234 /* Pods_Marvelgram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848C00A3D1F549AC1C34E15C /* Pods_Marvelgram.framework */; };
-		CEC7B79E265C24AB009314CA /* MarvelgramVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CEC7B79D265C24AB009314CA /* MarvelgramVideo.mp4 */; };
+		CEC7B7A1265C2933009314CA /* Video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CEC7B7A0265C2933009314CA /* Video.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +36,7 @@
 		28C73207263F1927004AD893 /* InstagramLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramLayout.swift; sourceTree = "<group>"; };
 		6A832634B44269453207FE8F /* Pods-Marvelgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marvelgram.release.xcconfig"; path = "Target Support Files/Pods-Marvelgram/Pods-Marvelgram.release.xcconfig"; sourceTree = "<group>"; };
 		848C00A3D1F549AC1C34E15C /* Pods_Marvelgram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marvelgram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEC7B79D265C24AB009314CA /* MarvelgramVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = MarvelgramVideo.mp4; sourceTree = SOURCE_ROOT; };
+		CEC7B7A0265C2933009314CA /* Video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video.mp4; sourceTree = SOURCE_ROOT; };
 		E60615459854F6417A872AFD /* Pods-Marvelgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marvelgram.debug.xcconfig"; path = "Target Support Files/Pods-Marvelgram/Pods-Marvelgram.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,7 +141,7 @@
 		CEC7B79C265C249A009314CA /* Video */ = {
 			isa = PBXGroup;
 			children = (
-				CEC7B79D265C24AB009314CA /* MarvelgramVideo.mp4 */,
+				CEC7B7A0265C2933009314CA /* Video.mp4 */,
 			);
 			path = Video;
 			sourceTree = "<group>";
@@ -208,7 +208,7 @@
 				28C731EF263EEAD5004AD893 /* LaunchScreen.storyboard in Resources */,
 				28C731EC263EEAD5004AD893 /* Assets.xcassets in Resources */,
 				28C731EA263EEAD3004AD893 /* Main.storyboard in Resources */,
-				CEC7B79E265C24AB009314CA /* MarvelgramVideo.mp4 in Resources */,
+				CEC7B7A1265C2933009314CA /* Video.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
