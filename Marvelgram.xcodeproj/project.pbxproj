@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28C731E3263EEAD3004AD893 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C731E2263EEAD3004AD893 /* AppDelegate.swift */; };
+		28C731E5263EEAD3004AD893 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C731E4263EEAD3004AD893 /* SceneDelegate.swift */; };
+		28C731E7263EEAD3004AD893 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C731E6263EEAD3004AD893 /* StartViewController.swift */; };
+		28C731EA263EEAD3004AD893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C731E8263EEAD3004AD893 /* Main.storyboard */; };
+		28C731EC263EEAD5004AD893 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C731EB263EEAD5004AD893 /* Assets.xcassets */; };
+		28C731EF263EEAD5004AD893 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C731ED263EEAD5004AD893 /* LaunchScreen.storyboard */; };
+		28C731FB263EF673004AD893 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C731FA263EF673004AD893 /* DetailsViewController.swift */; };
+		28C731FF263EF7A3004AD893 /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C731FE263EF7A3004AD893 /* SuperHero.swift */; };
+		28C73202263EF9DC004AD893 /* SuperHeroCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C73201263EF9DC004AD893 /* SuperHeroCollectionViewCell.swift */; };
+		28C73208263F1927004AD893 /* InstagramLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C73207263F1927004AD893 /* InstagramLayout.swift */; };
+		5FA792C7DEFB54D812001234 /* Pods_Marvelgram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848C00A3D1F549AC1C34E15C /* Pods_Marvelgram.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28C731DF263EEAD3004AD893 /* Marvelgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marvelgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C731E2263EEAD3004AD893 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28C731E4263EEAD3004AD893 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		28C731E6263EEAD3004AD893 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		28C731E9263EEAD3004AD893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28C731EB263EEAD5004AD893 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28C731EE263EEAD5004AD893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28C731F0263EEAD5004AD893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C731FA263EF673004AD893 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		28C731FE263EF7A3004AD893 /* SuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
+		28C73201263EF9DC004AD893 /* SuperHeroCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroCollectionViewCell.swift; sourceTree = "<group>"; };
+		28C73207263F1927004AD893 /* InstagramLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramLayout.swift; sourceTree = "<group>"; };
+		6A832634B44269453207FE8F /* Pods-Marvelgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marvelgram.release.xcconfig"; path = "Target Support Files/Pods-Marvelgram/Pods-Marvelgram.release.xcconfig"; sourceTree = "<group>"; };
+		848C00A3D1F549AC1C34E15C /* Pods_Marvelgram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marvelgram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E60615459854F6417A872AFD /* Pods-Marvelgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marvelgram.debug.xcconfig"; path = "Target Support Files/Pods-Marvelgram/Pods-Marvelgram.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28C731DC263EEAD3004AD893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA792C7DEFB54D812001234 /* Pods_Marvelgram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28C731D6263EEAD3004AD893 = {
+			isa = PBXGroup;
+			children = (
+				28C731E1263EEAD3004AD893 /* Marvelgram */,
+				28C731E0263EEAD3004AD893 /* Products */,
+				52849ED1C6499747E4C6DA90 /* Pods */,
+				CE7382BA73817A332414205F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		28C731E0263EEAD3004AD893 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28C731DF263EEAD3004AD893 /* Marvelgram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28C731E1263EEAD3004AD893 /* Marvelgram */ = {
+			isa = PBXGroup;
+			children = (
+				28C7320E263F21AB004AD893 /* Resources */,
+				28C7320D263F21A2004AD893 /* Controllers */,
+				28C7320C263F219C004AD893 /* Model */,
+				28C7320B263F2194004AD893 /* Components */,
+				28C731E2263EEAD3004AD893 /* AppDelegate.swift */,
+				28C731E4263EEAD3004AD893 /* SceneDelegate.swift */,
+				28C731F0263EEAD5004AD893 /* Info.plist */,
+			);
+			path = Marvelgram;
+			sourceTree = "<group>";
+		};
+		28C7320B263F2194004AD893 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				28C73201263EF9DC004AD893 /* SuperHeroCollectionViewCell.swift */,
+				28C73207263F1927004AD893 /* InstagramLayout.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		28C7320C263F219C004AD893 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28C731FE263EF7A3004AD893 /* SuperHero.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		28C7320D263F21A2004AD893 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				28C731E6263EEAD3004AD893 /* StartViewController.swift */,
+				28C731FA263EF673004AD893 /* DetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		28C7320E263F21AB004AD893 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28C731E8263EEAD3004AD893 /* Main.storyboard */,
+				28C731EB263EEAD5004AD893 /* Assets.xcassets */,
+				28C731ED263EEAD5004AD893 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		52849ED1C6499747E4C6DA90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E60615459854F6417A872AFD /* Pods-Marvelgram.debug.xcconfig */,
+				6A832634B44269453207FE8F /* Pods-Marvelgram.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE7382BA73817A332414205F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				848C00A3D1F549AC1C34E15C /* Pods_Marvelgram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28C731DE263EEAD3004AD893 /* Marvelgram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C731F3263EEAD5004AD893 /* Build configuration list for PBXNativeTarget "Marvelgram" */;
+			buildPhases = (
+				5E28EE27080D1F2F01401F40 /* [CP] Check Pods Manifest.lock */,
+				28C731DB263EEAD3004AD893 /* Sources */,
+				28C731DC263EEAD3004AD893 /* Frameworks */,
+				28C731DD263EEAD3004AD893 /* Resources */,
+				4509E1E5EA15D3BBB5CB6511 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Marvelgram;
+			productName = Marvelgram;
+			productReference = 28C731DF263EEAD3004AD893 /* Marvelgram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28C731D7263EEAD3004AD893 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					28C731DE263EEAD3004AD893 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 28C731DA263EEAD3004AD893 /* Build configuration list for PBXProject "Marvelgram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28C731D6263EEAD3004AD893;
+			productRefGroup = 28C731E0263EEAD3004AD893 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28C731DE263EEAD3004AD893 /* Marvelgram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28C731DD263EEAD3004AD893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C731EF263EEAD5004AD893 /* LaunchScreen.storyboard in Resources */,
+				28C731EC263EEAD5004AD893 /* Assets.xcassets in Resources */,
+				28C731EA263EEAD3004AD893 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4509E1E5EA15D3BBB5CB6511 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marvelgram/Pods-Marvelgram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marvelgram/Pods-Marvelgram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Marvelgram/Pods-Marvelgram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E28EE27080D1F2F01401F40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Marvelgram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28C731DB263EEAD3004AD893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C731FF263EF7A3004AD893 /* SuperHero.swift in Sources */,
+				28C731E7263EEAD3004AD893 /* StartViewController.swift in Sources */,
+				28C731E3263EEAD3004AD893 /* AppDelegate.swift in Sources */,
+				28C73208263F1927004AD893 /* InstagramLayout.swift in Sources */,
+				28C731E5263EEAD3004AD893 /* SceneDelegate.swift in Sources */,
+				28C73202263EF9DC004AD893 /* SuperHeroCollectionViewCell.swift in Sources */,
+				28C731FB263EF673004AD893 /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28C731E8263EEAD3004AD893 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28C731E9263EEAD3004AD893 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28C731ED263EEAD5004AD893 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28C731EE263EEAD5004AD893 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28C731F1263EEAD5004AD893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28C731F2263EEAD5004AD893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28C731F4263EEAD5004AD893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E60615459854F6417A872AFD /* Pods-Marvelgram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5365HC76W9;
+				INFOPLIST_FILE = Marvelgram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nariman.marvelgram.Marvelgram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		28C731F5263EEAD5004AD893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A832634B44269453207FE8F /* Pods-Marvelgram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5365HC76W9;
+				INFOPLIST_FILE = Marvelgram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nariman.marvelgram.Marvelgram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28C731DA263EEAD3004AD893 /* Build configuration list for PBXProject "Marvelgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C731F1263EEAD5004AD893 /* Debug */,
+				28C731F2263EEAD5004AD893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28C731F3263EEAD5004AD893 /* Build configuration list for PBXNativeTarget "Marvelgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C731F4263EEAD5004AD893 /* Debug */,
+				28C731F5263EEAD5004AD893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28C731D7263EEAD3004AD893 /* Project object */;
+}
